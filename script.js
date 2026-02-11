@@ -27,7 +27,11 @@ form.addEventListener("submit",(event)=>{
     
     form.reset();
 })
-
+const clearbtn=document.querySelector("#clearEvents");
+clearbtn.addEventListener("click",()=>{
+    const cards=document.querySelectorAll(".card");
+    cards.forEach(card=>card.remove());
+}) 
 document.addEventListener("keydown", (event)=>{
     let pressed=event.key;
     document.querySelector(".dom-div").textContent=`You pressed: ${pressed}`;

@@ -149,3 +149,15 @@ button:active {
 #keyPressed{
     color: #2c7a94
 }
+
+h3 {
+    color: #2c7a94;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.events-div{
+    display: flex;
+    flex-direction: column;
+}
+
