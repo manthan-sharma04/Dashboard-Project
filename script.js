@@ -9,6 +9,7 @@ form.addEventListener("submit",(event)=>{
     const Description=document.querySelector("#Description").value;
     console.log(eventTitle,eventDate,eventCategory,Description);
 
+    
     const card=document.createElement("div");
     card.classList.add("card");
     card.innerHTML=`
